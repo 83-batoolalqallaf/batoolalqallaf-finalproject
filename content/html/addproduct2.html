@@ -77,16 +77,18 @@ h1{
    margin-left: 40%;
    margin-bottom: 5%;
  }
-.sumbit{
-  margin-left: 42%;
-  padding:10px;
-  
-  border-radius: 4px;
-  text-decoration: none;
-  color: #f1f1f1;
-  background-color: #1D3557;
-  
+ .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size:large;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 40%;
 }
+.btn:hover {background: #eee;}
+/* .btn1:hover {background: #eee;} */
+.default {color: #1D3557;}
     </style>
 </head>
 <body>
@@ -147,8 +149,9 @@ h1{
               </div>
           </div>
       </div>
-      <a class="sumbit" href="../morepages/HomeBusiness.html">Submit</a>
-      </div>
+      <a href="../morepages/HomeBusiness.html">
+        <button class="btn default">Add Products</button>
+    </a>
     </div>
 </body>
 </html>
