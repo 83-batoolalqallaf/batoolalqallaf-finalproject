@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #457B9D;
+    margin: 0;
+  }
+  .header {
+    text-align: center;
+    color: #1D3557;
+  }
+  #header{
+    text-align: center;
+    color: #1D3557;
+  }
+
+.images{
+    display: block;
+     margin-left: auto;
+     margin-right: auto; margin-top: 0px;
+     width: 15%;
+ }
+ h1{
+   /* background-color: #1D3557; */
+   color: #1D3557;
+   text-align: center;
+   
+ }
+ .h2{
+   display: block;
+      background-color: #1D3557;
+      color: #ffffff;
+      text-align: center;
+      font-size: 25px;
+      margin-right: 30%;
+      margin-left: 30%;
+      margin-top:3% ;
+      padding: 15px;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-decoration: none;
+ }
+ .aboutus{
+   border-bottom: 1px solid black;
+   font-size: 50px;
+   margin-left: 20px;
+   margin-right: 50px;
+ }
+#whoarewe{ 
+   margin-right: 60px;
+   margin-left: 50px;
+   /* border-bottom: 1px solid black; */
+   font-size: 30px;
+
+ }
+ #footer{
+   background-color: #1D3557;
+   color: #ffffff;
+   height: 120px;
+   text-decoration: none ;
+   text-decoration-color: #ffffff;
+
+ }
+ .socialmedia{
+   width: 40px;
+   margin-bottom: 0;
+   /* margin-top: 70px; */
+   margin-right: 20px;
+  float: left;
+ }
+ .li{
+   display: inline-flex;
+   list-style: none;
+   margin: 19px;
+   padding-left: 10px;
+   word-spacing: 30px;
+   text-align: center;
+   font-size: larger;
+   margin-top: 30px;
+   border-right: 2px solid black;
+   padding-right: 20px;
+    color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+
+  
+ }
+ .box1{
+  display: block;
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top:90px ;
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+
+ }
+ .box2{
+  display: block;
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top:20px ;
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+
+ }
+ 
+/* Style the navbar */
+/* #navbar {
+  overflow: hidden;
+  background-color: #1D3557;;
+}
+ */
+/* Navbar links */
+/* #navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} */
+
+/* Page content */
+/* .content {
+  padding: 16px;
+} */
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/*   /* navbar */
+ .navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+  
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* end navbar style */
+/* drop dawn */
+  /* Navbar container */
+  .navbar {
+    overflow: hidden;
+    background-color: #1D3557;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  /* drop dawm */
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .block {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #1D3557;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 400px;
+    text-decoration: none;
+  }
+  .block2{
+    float: right;
+    display: block;
+    width: 30%;
+    border: none;
+    background-color: #1D3557;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 400px;
+    text-decoration: none;
+  }
+  #searchbar{ 
+    margin-left: 15%; 
+    padding:15px; 
+    border-radius: 10px; 
+  } 
+  
+.input-group{
+  margin-right: 20px;
+  float: right;
+  margin: 13px;
+}
+
+
+ .footer{
+  
+  display: block;
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: left;
+  font-size:medium;
+  height: 100px;
+ } 
+ 
+ .footer {
+  height: 50px;
+  /* position: fixed;  */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1D3557;
+  color: white;
+  text-align:left;
+} 
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 70px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h4{
+    color: #ddd;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  #h2{
+    color: #ddd;
+  }
+  .social{
+    padding: 10px;
+  }
