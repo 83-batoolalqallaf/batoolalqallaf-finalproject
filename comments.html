@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+    <link rel="shortcut icon" href="../img/Screen Shot 2020-07-12 at 8.39.10 PM.png" type="image/x-icon">
+
+    <title>HomeBuisness | thought's</title>
+</head>
+<body>
+    <html>
+    <head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+        <title>Comment App</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="https://use.fontawesome.com/eb2a23116f.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #457B9D;
+    margin: 0;
+  }
+  .header {
+    text-align: center;
+    color: #1D3557;
+  }
+  #header{
+    text-align: center;
+    color: #1D3557;
+  }
+
+.images{
+    display: block;
+     margin-left: auto;
+     margin-right: auto; margin-top: 0px;
+     width: 15%;
+ }
+
+            /* body {
+	text-align:center;
+	background-color: #457B9D;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+ */
+
+h1 {
+
+  color: #1D3557; 
+  font-family: "Bangers";
+  font-size: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 10s steps(60, end);
+
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+input {
+	margin-bottom:20px;
+}
+
+li {
+	list-style-type: none;
+	text-align:left;
+	font-size:20px;
+}
+p {
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.h3, h3 {
+    font-size: 25px;
+}
+#formcontrol {
+	font-size: 2rem;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <img class="images" src="../img/Screen Shot 2020-07-12 at 8.39.10 PM.png">
+
+            <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <h1>SHARE UR THOUGHT'S</h1>
+
+                <form id="todoForm">
+                    <div class="form-group">
+                        <input id="username" class="form-control" placeholder="username" style="font-size: 20px;">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="comment" class="form-control" placeholder="comment" style="font-size: 20px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" onclick="todoList()" class="btn btn-primary btn-lg">Share my thought</button>
+                    </div>
+                </form>
+                <ul id="commentList" class="list-group">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+     
+
+
+
+
+
+       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="js/main.js" type="text/javascript"></script>
+    </body>
+<script>
+    function todoList() {
+	var username = document.getElementById("username").value
+	var comment = document.getElementById("comment").value
+
+	var userNameText = document.createTextNode("Username: " + username)
+	var commentText = document.createTextNode("Comment: " + comment)
+
+	var newListItem = document.createElement("LI")
+	newListItem.className = "list-group-item"
+	var newUserName = document.createElement("H3")
+	newUserName.appendChild(userNameText)
+	var newComment = document.createElement("P")
+	newComment.appendChild(commentText)
+
+	newListItem.appendChild(newUserName)
+	newListItem.appendChild(newComment)
+	document.getElementById("commentList").appendChild(newListItem)
+}
+</script>
+</html>

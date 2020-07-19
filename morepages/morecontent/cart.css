@@ -1,0 +1,524 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #457B9D;
+    margin: 0;
+    width: 100%;
+  }
+  .header {
+    text-align: center;
+    color: #1D3557;
+  }
+  #header{
+    text-align: center;
+    color: #1D3557;
+  }
+
+.images{
+    display: block;
+     margin-left: auto;
+     margin-right: auto; margin-top: 0px;
+     width: 15%;
+ }
+ h1{
+   /* background-color: #1D3557; */
+   color: #1D3557;
+   text-align: center;
+   
+ }
+ .h2{
+   display: block;
+      background-color: #1D3557;
+      color: #ffffff;
+      text-align: center;
+      font-size: 25px;
+      margin-right: 30%;
+      margin-left: 30%;
+      margin-top:10% ;
+      padding: 15px;
+      padding-left: 100px;
+      padding-right: 100px;
+      text-decoration: none;
+ }
+ .aboutus{
+   border-bottom: 1px solid black;
+   font-size: 50px;
+   margin-left: 20px;
+   margin-right: 50px;
+ }
+#whoarewe{ 
+   margin-right: 60px;
+   margin-left: 50px;
+   /* border-bottom: 1px solid black; */
+   font-size: 30px;
+
+ }
+ #footer{
+   background-color: #1D3557;
+   color: #ffffff;
+   height: 120px;
+   text-decoration: none ;
+   text-decoration-color: #ffffff;
+
+ }
+ .socialmedia{
+   width: 40px;
+   margin-bottom: 0;
+   /* margin-top: 70px; */
+   margin-right: 20px;
+  float: left;
+ }
+ .li{
+   display: inline-flex;
+   list-style: none;
+   margin: 19px;
+   padding-left: 10px;
+   word-spacing: 30px;
+   text-align: center;
+   font-size: larger;
+   margin-top: 30px;
+   border-right: 2px solid black;
+   padding-right: 20px;
+    color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+
+  
+ }
+ .box1{
+  display: block;
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top:90px ;
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+
+ }
+ .box2{
+  display: block;
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top:20px ;
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+
+ }
+ 
+/* Style the navbar */
+/* #navbar {
+  overflow: hidden;
+  background-color: #1D3557;;
+}
+ */
+/* Navbar links */
+/* #navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} */
+
+/* Page content */
+/* .content {
+  padding: 16px;
+} */
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/*   /* navbar */
+ .navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+  
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* end navbar style */
+/* drop dawn */
+  /* Navbar container */
+  .navbar {
+    overflow: hidden;
+    background-color: #1D3557;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  /* drop dawm */
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .block {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #1D3557;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 400px;
+    text-decoration: none;
+  }
+  .block2{
+    float: right;
+    display: block;
+    width: 30%;
+    border: none;
+    background-color: #1D3557;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 400px;
+    text-decoration: none;
+  }
+  #searchbar{ 
+    margin-left: 15%; 
+    padding:15px; 
+    border-radius: 10px; 
+  } 
+  
+.input-group{
+  margin-right: 20px;
+  float: right;
+  margin: 13px;
+}
+
+
+ .footer{
+  
+  display: block;
+  background-color: #1D3557;
+  color: #ffffff;
+  text-align: left;
+  font-size:medium;
+  height: 100px;
+ } 
+ 
+ .footer {
+  height: 50px;
+  /* position: fixed;  */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1D3557;
+  color: white;
+  text-align:left;
+} 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.price {
+  color: white;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #1D3557;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* ------------------------cart page ---------------------------------  */
+
+.product-container{
+  max-width: 650px;
+  /* justify-content: space-around; */
+  margin: 0 auto;
+  margin-top: 50px;
+  /* border-bottom: 2px solid #1D3557; */
+}
+.product-container ion-icon{
+  font-size: 25px;
+  color: #1D3557;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.product-container{
+  
+   display: flex; 
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  padding: 50px;color: #1D3557;
+}
+.product-header{
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid #1D3557;
+  margin: 0 auto;color: #1D3557;
+}
+.title{
+  width: 45%;
+ 
+}  
+
+.cart-price{
+  width: 15%;
+  margin-left: 30%;
+  /* border-bottom: 4px solid #1D3557; */
+  display: flex;
+  align-items: center;color: #1D3557;
+
+  
+}
+
+.quantity{
+  width: 30%;
+  /* border-bottom: 1px solid #1D3557;  */
+  display: flex;
+  align-items: center;
+  margin-left: 100px;color: #1D3557;
+}
+
+.total{
+    width: 10%;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid #1D3557;  */
+  margin-left: 100px;
+}
+
+.product{
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  /* border-bottom: 3px solid #1D3557;  */
+  margin-left: 135px;
+  
+}
+.basketTotalContainer{
+  display:block;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0 ;color: #1D3557;
+}
+.basketTotalTitle{
+  width: 30%;color: #1D3557;
+}
+.basketTotal{
+  width: 10%;
+  color: #1D3557;
+}
+
+.product img{
+  width: 75px;
+
+}
+.product span{
+  margin-left: 25px;
+  margin-right:150px ;
+}
+.basketTotalContainer{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0 ;
+  
+}
+
+.basketTotalTitle{
+  width: 30%;
+}
+.basketTotal{
+  width: 10%;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: #1D3557;
+  color: #f2f2f2;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+
+/* ----------------------------search box --------------------------------------- */
+#myInput {float: right;
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 15%;
+  margin-right: 20px;
+  margin-top: 9px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+  /* Create two equal columns that floats next to each other */
+  .column {
+    margin-top: 50px;
+   
+    float: left;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 70px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h4{
+    color: #ddd;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  #h2{
+    color: #ddd;
+  }
+  .social{
+    padding: 10px;
+  }
