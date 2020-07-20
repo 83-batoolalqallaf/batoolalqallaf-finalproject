@@ -42,6 +42,20 @@
       padding-right: 100px;
       text-decoration: none;
  }
+ .btn {
+  border: none;
+  background-color:#457B9D;
+  padding: 14px 28px;
+  font-size:large;
+  cursor: pointer;
+  display: inline-block;
+  margin-left:46%;
+  color: #1D3557;
+}
+.btn:hover {background: #eee;color:#1D3557}
+/* .btn1:hover {background: #eee;} */
+.default {color: #1D3557;}
+
  .aboutus{
    border-bottom: 1px solid black;
    font-size: 50px;
@@ -450,7 +464,7 @@
   width: 10%;
 }
 
-.btn{
+/* .btn{
   text-decoration: none;
   background-color: #1D3557;
   color: #f2f2f2;
@@ -458,7 +472,7 @@
   margin-top: 20px;
   margin-left: 45%;
 }
-
+ */
 /* ----------------------------search box --------------------------------------- */
 #myInput {float: right;
   background-image: url('/css/searchicon.png');
