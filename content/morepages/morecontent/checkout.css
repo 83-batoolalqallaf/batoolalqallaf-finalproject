@@ -218,7 +218,7 @@ input[type='password']:focus {
     transition: all .2s ease-in-out;
     letter-spacing: 1px;
     border: none;
-    border-radius: 23px;
+    border-radius:1px;
   }
    
   .back-btn {
